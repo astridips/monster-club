@@ -1,3 +1,100 @@
-body{
-    background-color: yellowgreen;
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:wght@400;500;600;700&family=Open+Sans:wght@400;600;700;800&display=swap');
+
+body, html{
+    font-family: 'Open Sans', sans-serif;
+    padding: 0;
+    margin: 0;
 }
+
+/*hero-banner*/
+
+h1{
+    font-weight: 700;
+    font-size: 50px;
+}
+
+h3{
+    font-weight: 400;
+    font-size: 20px;
+}
+
+h4{
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.wrapper{
+    width: 960px;
+    margin: 0 auto;
+}
+
+.hero-banner{
+    background-color: #FEE71F;
+    height: 100vh;
+    padding: 15%;
+    box-sizing: border-box;
+}
+
+.hero-banner h1{
+    color: black;
+    margin: 14px 0 20px;
+}
+.hero-banner h3{
+    color: black;
+    margin: 0 0 35px;
+}
+
+.hero-banner h4,
+.hero-banner h4 a{
+    color:black;
+    margin: 0;
+}
+
+.character1{
+    background: url(img/character1.png) no-repeat 0 0;
+    background-size: 100%;
+    width: 300px;
+    height: 300px;
+    position: absolute; top: 10px; right: 10px;
+}
+
+.character2{
+    background: url(img/character2.png) no-repeat 0 0;
+    background-size: 100%;
+    width: 300px;
+    height: 300px;
+    position: absolute; top: 10px; right: 10px;
+}
+
+.character3{
+    background: url(img/character3.png) no-repeat 0 0;
+    background-size: 100%;
+    width: 300px;
+    height: 300px;
+    position: absolute; top: 10px; right: 10px;
+}
+
+
+a.cta,
+button.cta{
+    font-weight: 700;
+    font-size: 20px;
+    color: whitesmoke;
+    background: #FF2D4D;
+    display: inline-block;
+    box-shadow: 0 0 0 10px rgba(255, 45, 77, .5);
+    padding: 15px 30px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+a.cta.alt,
+button.cta.alt{
+    background: #FEE71F;
+    box-shadow: 0 0 0 10px rgba(254, 231, 31, 0.5);
+    color: black;
+}
+
+/*nav-bar*/
+
+/*more-info*/
